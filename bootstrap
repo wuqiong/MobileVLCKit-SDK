@@ -1,0 +1,28 @@
+#!/bin/bash
+
+PKG_NAME="MobileVLCKit-framework-latest.tar.gz"
+rm -rf ./MobileVLCKit.framework
+echo "Downloading $PKG_NAME, wait..."
+
+curl  "http://wuqiong.info:8088/download/${PKG_NAME}" -o "${PKG_NAME}" > /dev/null 2>&1
+
+if [ $? == 0 ];
+then
+	echo "Downloaded the package! ${PKG_NAME}";
+fi	
+if [ ! -f $PKG_NAME ];
+then
+	echo "error! ${PKG_NAME} doesn't exist!"
+	exit -1;
+fi
+
+echo "Prepareing to extract......"
+tar xzvf $PKG_NAME;
+
+if [ $? != 0 ];
+then
+	echo "Extracting ${PKG_NAME} failed!"
+else
+	echo "Bootstraping the Framework done, Enjoy!"
+fi
+

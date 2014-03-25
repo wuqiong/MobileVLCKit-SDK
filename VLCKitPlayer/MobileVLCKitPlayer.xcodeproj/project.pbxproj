@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		001CE79B18DC5DF3003D01F9 /* DVIPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 001CE79A18DC5DF3003D01F9 /* DVIPlayerViewController.m */; };
+		001CE79D18DC6239003D01F9 /* MobileVLCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001CE79C18DC6239003D01F9 /* MobileVLCKit.framework */; };
+		008418C618D9204600237FB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008418C518D9204600237FB2 /* Foundation.framework */; };
+		008418C818D9204600237FB2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008418C718D9204600237FB2 /* CoreGraphics.framework */; };
+		008418CA18D9204600237FB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008418C918D9204600237FB2 /* UIKit.framework */; };
+		008418D018D9204600237FB2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 008418CE18D9204600237FB2 /* InfoPlist.strings */; };
+		008418D218D9204600237FB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 008418D118D9204600237FB2 /* main.m */; };
+		008418D618D9204600237FB2 /* DVIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 008418D518D9204600237FB2 /* DVIAppDelegate.m */; };
+		008418D918D9204600237FB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 008418D718D9204600237FB2 /* Main.storyboard */; };
+		008418DC18D9204600237FB2 /* DVIViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 008418DB18D9204600237FB2 /* DVIViewController.mm */; };
+		008418DE18D9204600237FB2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 008418DD18D9204600237FB2 /* Images.xcassets */; };
+		008418E518D9204600237FB2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008418E418D9204600237FB2 /* XCTest.framework */; };
+		008418E618D9204700237FB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008418C518D9204600237FB2 /* Foundation.framework */; };
+		008418E718D9204700237FB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008418C918D9204600237FB2 /* UIKit.framework */; };
+		008418EF18D9204700237FB2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 008418ED18D9204700237FB2 /* InfoPlist.strings */; };
+		008418F118D9204700237FB2 /* VLCKitPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 008418F018D9204700237FB2 /* VLCKitPlayerTests.m */; };
+		008418FD18D9215700237FB2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008418FC18D9215700237FB2 /* AVFoundation.framework */; };
+		008418FF18D9216400237FB2 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008418FE18D9216400237FB2 /* CoreAudio.framework */; };
+		0084190118D9217000237FB2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0084190018D9217000237FB2 /* AudioToolbox.framework */; };
+		0084190318D9218300237FB2 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0084190218D9218300237FB2 /* libz.dylib */; };
+		0084190718D921BA00237FB2 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0084190618D921BA00237FB2 /* libiconv.dylib */; };
+		0084190B18D921D200237FB2 /* libbz2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0084190A18D921D200237FB2 /* libbz2.dylib */; };
+		0084190C18D9225400237FB2 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0084190418D9219000237FB2 /* libstdc++.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		008418E818D9204700237FB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 008418BA18D9204600237FB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 008418C118D9204600237FB2;
+			remoteInfo = VLCKitPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		001CE79918DC5DF3003D01F9 /* DVIPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVIPlayerViewController.h; sourceTree = "<group>"; };
+		001CE79A18DC5DF3003D01F9 /* DVIPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVIPlayerViewController.m; sourceTree = "<group>"; };
+		001CE79C18DC6239003D01F9 /* MobileVLCKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileVLCKit.framework; path = ../../MobileVLCKit.framework; sourceTree = "<group>"; };
+		008418C218D9204600237FB2 /* MobileVLCKitPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileVLCKitPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		008418C518D9204600237FB2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		008418C718D9204600237FB2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		008418C918D9204600237FB2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		008418CD18D9204600237FB2 /* MobileVLCKitPlayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MobileVLCKitPlayer-Info.plist"; sourceTree = "<group>"; };
+		008418CF18D9204600237FB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		008418D118D9204600237FB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		008418D318D9204600237FB2 /* MobileVLCKitPlayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MobileVLCKitPlayer-Prefix.pch"; sourceTree = "<group>"; };
+		008418D418D9204600237FB2 /* DVIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVIAppDelegate.h; sourceTree = "<group>"; };
+		008418D518D9204600237FB2 /* DVIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVIAppDelegate.m; sourceTree = "<group>"; };
+		008418D818D9204600237FB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		008418DA18D9204600237FB2 /* DVIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVIViewController.h; sourceTree = "<group>"; };
+		008418DB18D9204600237FB2 /* DVIViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = DVIViewController.mm; sourceTree = "<group>"; };
+		008418DD18D9204600237FB2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		008418E318D9204600237FB2 /* MobileVLCKitPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileVLCKitPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		008418E418D9204600237FB2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		008418EC18D9204700237FB2 /* MobileVLCKitPlayerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MobileVLCKitPlayerTests-Info.plist"; sourceTree = "<group>"; };
+		008418EE18D9204700237FB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		008418F018D9204700237FB2 /* VLCKitPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VLCKitPlayerTests.m; sourceTree = "<group>"; };
+		008418FC18D9215700237FB2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		008418FE18D9216400237FB2 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		0084190018D9217000237FB2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0084190218D9218300237FB2 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		0084190418D9219000237FB2 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		0084190618D921BA00237FB2 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		0084190818D921C300237FB2 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		0084190A18D921D200237FB2 /* libbz2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbz2.dylib; path = usr/lib/libbz2.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		008418BF18D9204600237FB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0084190C18D9225400237FB2 /* libstdc++.dylib in Frameworks */,
+				0084190B18D921D200237FB2 /* libbz2.dylib in Frameworks */,
+				0084190718D921BA00237FB2 /* libiconv.dylib in Frameworks */,
+				0084190318D9218300237FB2 /* libz.dylib in Frameworks */,
+				0084190118D9217000237FB2 /* AudioToolbox.framework in Frameworks */,
+				001CE79D18DC6239003D01F9 /* MobileVLCKit.framework in Frameworks */,
+				008418FF18D9216400237FB2 /* CoreAudio.framework in Frameworks */,
+				008418FD18D9215700237FB2 /* AVFoundation.framework in Frameworks */,
+				008418C818D9204600237FB2 /* CoreGraphics.framework in Frameworks */,
+				008418CA18D9204600237FB2 /* UIKit.framework in Frameworks */,
+				008418C618D9204600237FB2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		008418E018D9204600237FB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008418E518D9204600237FB2 /* XCTest.framework in Frameworks */,
+				008418E718D9204700237FB2 /* UIKit.framework in Frameworks */,
+				008418E618D9204700237FB2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		008418B918D9204600237FB2 = {
+			isa = PBXGroup;
+			children = (
+				008418CB18D9204600237FB2 /* VLCKitPlayer */,
+				008418EA18D9204700237FB2 /* VLCKitPlayerTests */,
+				008418C418D9204600237FB2 /* Frameworks */,
+				008418C318D9204600237FB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		008418C318D9204600237FB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				008418C218D9204600237FB2 /* MobileVLCKitPlayer.app */,
+				008418E318D9204600237FB2 /* MobileVLCKitPlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		008418C418D9204600237FB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0084190A18D921D200237FB2 /* libbz2.dylib */,
+				0084190818D921C300237FB2 /* libc++.dylib */,
+				0084190618D921BA00237FB2 /* libiconv.dylib */,
+				0084190418D9219000237FB2 /* libstdc++.dylib */,
+				0084190218D9218300237FB2 /* libz.dylib */,
+				0084190018D9217000237FB2 /* AudioToolbox.framework */,
+				008418FE18D9216400237FB2 /* CoreAudio.framework */,
+				008418FC18D9215700237FB2 /* AVFoundation.framework */,
+				008418C518D9204600237FB2 /* Foundation.framework */,
+				008418C718D9204600237FB2 /* CoreGraphics.framework */,
+				008418C918D9204600237FB2 /* UIKit.framework */,
+				008418E418D9204600237FB2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		008418CB18D9204600237FB2 /* VLCKitPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				001CE79C18DC6239003D01F9 /* MobileVLCKit.framework */,
+				008418D418D9204600237FB2 /* DVIAppDelegate.h */,
+				008418D518D9204600237FB2 /* DVIAppDelegate.m */,
+				008418D718D9204600237FB2 /* Main.storyboard */,
+				008418DA18D9204600237FB2 /* DVIViewController.h */,
+				008418DB18D9204600237FB2 /* DVIViewController.mm */,
+				001CE79918DC5DF3003D01F9 /* DVIPlayerViewController.h */,
+				001CE79A18DC5DF3003D01F9 /* DVIPlayerViewController.m */,
+				008418DD18D9204600237FB2 /* Images.xcassets */,
+				008418CC18D9204600237FB2 /* Supporting Files */,
+			);
+			path = VLCKitPlayer;
+			sourceTree = "<group>";
+		};
+		008418CC18D9204600237FB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				008418CD18D9204600237FB2 /* MobileVLCKitPlayer-Info.plist */,
+				008418CE18D9204600237FB2 /* InfoPlist.strings */,
+				008418D118D9204600237FB2 /* main.m */,
+				008418D318D9204600237FB2 /* MobileVLCKitPlayer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		008418EA18D9204700237FB2 /* VLCKitPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				008418F018D9204700237FB2 /* VLCKitPlayerTests.m */,
+				008418EB18D9204700237FB2 /* Supporting Files */,
+			);
+			path = VLCKitPlayerTests;
+			sourceTree = "<group>";
+		};
+		008418EB18D9204700237FB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				008418EC18D9204700237FB2 /* MobileVLCKitPlayerTests-Info.plist */,
+				008418ED18D9204700237FB2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		008418C118D9204600237FB2 /* MobileVLCKitPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 008418F418D9204700237FB2 /* Build configuration list for PBXNativeTarget "MobileVLCKitPlayer" */;
+			buildPhases = (
+				008418BE18D9204600237FB2 /* Sources */,
+				008418BF18D9204600237FB2 /* Frameworks */,
+				008418C018D9204600237FB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobileVLCKitPlayer;
+			productName = VLCKitPlayer;
+			productReference = 008418C218D9204600237FB2 /* MobileVLCKitPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		008418E218D9204600237FB2 /* MobileVLCKitPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 008418F718D9204700237FB2 /* Build configuration list for PBXNativeTarget "MobileVLCKitPlayerTests" */;
+			buildPhases = (
+				008418DF18D9204600237FB2 /* Sources */,
+				008418E018D9204600237FB2 /* Frameworks */,
+				008418E118D9204600237FB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				008418E918D9204700237FB2 /* PBXTargetDependency */,
+			);
+			name = MobileVLCKitPlayerTests;
+			productName = VLCKitPlayerTests;
+			productReference = 008418E318D9204600237FB2 /* MobileVLCKitPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		008418BA18D9204600237FB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DVI;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "戴维营教育";
+				TargetAttributes = {
+					008418E218D9204600237FB2 = {
+						TestTargetID = 008418C118D9204600237FB2;
+					};
+				};
+			};
+			buildConfigurationList = 008418BD18D9204600237FB2 /* Build configuration list for PBXProject "MobileVLCKitPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 008418B918D9204600237FB2;
+			productRefGroup = 008418C318D9204600237FB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				008418C118D9204600237FB2 /* MobileVLCKitPlayer */,
+				008418E218D9204600237FB2 /* MobileVLCKitPlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		008418C018D9204600237FB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008418DE18D9204600237FB2 /* Images.xcassets in Resources */,
+				008418D018D9204600237FB2 /* InfoPlist.strings in Resources */,
+				008418D918D9204600237FB2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		008418E118D9204600237FB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008418EF18D9204700237FB2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		008418BE18D9204600237FB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008418D618D9204600237FB2 /* DVIAppDelegate.m in Sources */,
+				008418D218D9204600237FB2 /* main.m in Sources */,
+				008418DC18D9204600237FB2 /* DVIViewController.mm in Sources */,
+				001CE79B18DC5DF3003D01F9 /* DVIPlayerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		008418DF18D9204600237FB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008418F118D9204700237FB2 /* VLCKitPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		008418E918D9204700237FB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 008418C118D9204600237FB2 /* MobileVLCKitPlayer */;
+			targetProxy = 008418E818D9204700237FB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		008418CE18D9204600237FB2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				008418CF18D9204600237FB2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		008418D718D9204600237FB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				008418D818D9204600237FB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		008418ED18D9204700237FB2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				008418EE18D9204700237FB2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		008418F218D9204700237FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		008418F318D9204700237FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		008418F518D9204700237FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/cheetah/projects,
+					/Users/cheetah/Downloads,
+					"/Users/cheetah/lab/oc/MobileVLCKit-SDK",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VLCKitPlayer/MobileVLCKitPlayer-Prefix.pch";
+				INFOPLIST_FILE = "VLCKitPlayer/MobileVLCKitPlayer-Info.plist";
+				PRODUCT_NAME = MobileVLCKitPlayer;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		008418F618D9204700237FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/cheetah/projects,
+					/Users/cheetah/Downloads,
+					"/Users/cheetah/lab/oc/MobileVLCKit-SDK",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VLCKitPlayer/MobileVLCKitPlayer-Prefix.pch";
+				INFOPLIST_FILE = "VLCKitPlayer/MobileVLCKitPlayer-Info.plist";
+				PRODUCT_NAME = MobileVLCKitPlayer;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		008418F818D9204700237FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VLCKitPlayer.app/VLCKitPlayer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VLCKitPlayer/VLCKitPlayer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VLCKitPlayerTests/MobileVLCKitPlayerTests-Info.plist";
+				PRODUCT_NAME = MobileVLCKitPlayerTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		008418F918D9204700237FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VLCKitPlayer.app/VLCKitPlayer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VLCKitPlayer/VLCKitPlayer-Prefix.pch";
+				INFOPLIST_FILE = "VLCKitPlayerTests/MobileVLCKitPlayerTests-Info.plist";
+				PRODUCT_NAME = MobileVLCKitPlayerTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		008418BD18D9204600237FB2 /* Build configuration list for PBXProject "MobileVLCKitPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				008418F218D9204700237FB2 /* Debug */,
+				008418F318D9204700237FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		008418F418D9204700237FB2 /* Build configuration list for PBXNativeTarget "MobileVLCKitPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				008418F518D9204700237FB2 /* Debug */,
+				008418F618D9204700237FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		008418F718D9204700237FB2 /* Build configuration list for PBXNativeTarget "MobileVLCKitPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				008418F818D9204700237FB2 /* Debug */,
+				008418F918D9204700237FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 008418BA18D9204600237FB2 /* Project object */;
+}
