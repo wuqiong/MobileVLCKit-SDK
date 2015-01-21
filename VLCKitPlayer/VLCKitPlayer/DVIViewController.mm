@@ -21,6 +21,7 @@
 	// Do any additional setup after loading the view, typically from a nib.
     
     _urlTextField.text = @"rtmp://live.hkstv.hk.lxdns.com/live/hks";
+
 }
 
 - (void)didReceiveMemoryWarning

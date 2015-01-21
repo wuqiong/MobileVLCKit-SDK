@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		001CE79B18DC5DF3003D01F9 /* DVIPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 001CE79A18DC5DF3003D01F9 /* DVIPlayerViewController.m */; };
-		001CE79D18DC6239003D01F9 /* MobileVLCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001CE79C18DC6239003D01F9 /* MobileVLCKit.framework */; };
 		008418C618D9204600237FB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008418C518D9204600237FB2 /* Foundation.framework */; };
 		008418C818D9204600237FB2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008418C718D9204600237FB2 /* CoreGraphics.framework */; };
 		008418CA18D9204600237FB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008418C918D9204600237FB2 /* UIKit.framework */; };
@@ -18,11 +17,6 @@
 		008418D918D9204600237FB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 008418D718D9204600237FB2 /* Main.storyboard */; };
 		008418DC18D9204600237FB2 /* DVIViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 008418DB18D9204600237FB2 /* DVIViewController.mm */; };
 		008418DE18D9204600237FB2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 008418DD18D9204600237FB2 /* Images.xcassets */; };
-		008418E518D9204600237FB2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008418E418D9204600237FB2 /* XCTest.framework */; };
-		008418E618D9204700237FB2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008418C518D9204600237FB2 /* Foundation.framework */; };
-		008418E718D9204700237FB2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008418C918D9204600237FB2 /* UIKit.framework */; };
-		008418EF18D9204700237FB2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 008418ED18D9204700237FB2 /* InfoPlist.strings */; };
-		008418F118D9204700237FB2 /* VLCKitPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 008418F018D9204700237FB2 /* VLCKitPlayerTests.m */; };
 		008418FD18D9215700237FB2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008418FC18D9215700237FB2 /* AVFoundation.framework */; };
 		008418FF18D9216400237FB2 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 008418FE18D9216400237FB2 /* CoreAudio.framework */; };
 		0084190118D9217000237FB2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0084190018D9217000237FB2 /* AudioToolbox.framework */; };
@@ -30,22 +24,12 @@
 		0084190718D921BA00237FB2 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0084190618D921BA00237FB2 /* libiconv.dylib */; };
 		0084190B18D921D200237FB2 /* libbz2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0084190A18D921D200237FB2 /* libbz2.dylib */; };
 		0084190C18D9225400237FB2 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0084190418D9219000237FB2 /* libstdc++.dylib */; };
+		189BFE1B1A6FEEC7003BF5BA /* MobileVLCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 189BFE1A1A6FEEC7003BF5BA /* MobileVLCKit.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		008418E818D9204700237FB2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 008418BA18D9204600237FB2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 008418C118D9204600237FB2;
-			remoteInfo = VLCKitPlayer;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		001CE79918DC5DF3003D01F9 /* DVIPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVIPlayerViewController.h; sourceTree = "<group>"; };
 		001CE79A18DC5DF3003D01F9 /* DVIPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVIPlayerViewController.m; sourceTree = "<group>"; };
-		001CE79C18DC6239003D01F9 /* MobileVLCKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileVLCKit.framework; path = ../../MobileVLCKit.framework; sourceTree = "<group>"; };
 		008418C218D9204600237FB2 /* MobileVLCKitPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileVLCKitPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		008418C518D9204600237FB2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		008418C718D9204600237FB2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,7 +44,6 @@
 		008418DA18D9204600237FB2 /* DVIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVIViewController.h; sourceTree = "<group>"; };
 		008418DB18D9204600237FB2 /* DVIViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = DVIViewController.mm; sourceTree = "<group>"; };
 		008418DD18D9204600237FB2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		008418E318D9204600237FB2 /* MobileVLCKitPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileVLCKitPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		008418E418D9204600237FB2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		008418EC18D9204700237FB2 /* MobileVLCKitPlayerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MobileVLCKitPlayerTests-Info.plist"; sourceTree = "<group>"; };
 		008418EE18D9204700237FB2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -73,6 +56,23 @@
 		0084190618D921BA00237FB2 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 		0084190818D921C300237FB2 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
 		0084190A18D921D200237FB2 /* libbz2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbz2.dylib; path = usr/lib/libbz2.dylib; sourceTree = SDKROOT; };
+		189BFE031A6FEEBA003BF5BA /* MobileVLCKitPlayer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = MobileVLCKitPlayer.xcodeproj; sourceTree = "<group>"; };
+		189BFE081A6FEEBA003BF5BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		189BFE091A6FEEBA003BF5BA /* DVIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVIAppDelegate.h; sourceTree = "<group>"; };
+		189BFE0A1A6FEEBA003BF5BA /* DVIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVIAppDelegate.m; sourceTree = "<group>"; };
+		189BFE0B1A6FEEBA003BF5BA /* DVIPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVIPlayerViewController.h; sourceTree = "<group>"; };
+		189BFE0C1A6FEEBA003BF5BA /* DVIPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVIPlayerViewController.m; sourceTree = "<group>"; };
+		189BFE0D1A6FEEBA003BF5BA /* DVIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVIViewController.h; sourceTree = "<group>"; };
+		189BFE0E1A6FEEBA003BF5BA /* DVIViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = DVIViewController.mm; sourceTree = "<group>"; };
+		189BFE101A6FEEBA003BF5BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		189BFE111A6FEEBA003BF5BA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		189BFE121A6FEEBA003BF5BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		189BFE131A6FEEBA003BF5BA /* MobileVLCKitPlayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MobileVLCKitPlayer-Info.plist"; sourceTree = "<group>"; };
+		189BFE141A6FEEBA003BF5BA /* MobileVLCKitPlayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MobileVLCKitPlayer-Prefix.pch"; sourceTree = "<group>"; };
+		189BFE171A6FEEBA003BF5BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		189BFE181A6FEEBA003BF5BA /* MobileVLCKitPlayerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MobileVLCKitPlayerTests-Info.plist"; sourceTree = "<group>"; };
+		189BFE191A6FEEBA003BF5BA /* VLCKitPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VLCKitPlayerTests.m; sourceTree = "<group>"; };
+		189BFE1A1A6FEEC7003BF5BA /* MobileVLCKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileVLCKit.framework; path = ../MobileVLCKit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,27 +80,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				189BFE1B1A6FEEC7003BF5BA /* MobileVLCKit.framework in Frameworks */,
 				0084190C18D9225400237FB2 /* libstdc++.dylib in Frameworks */,
 				0084190B18D921D200237FB2 /* libbz2.dylib in Frameworks */,
 				0084190718D921BA00237FB2 /* libiconv.dylib in Frameworks */,
 				0084190318D9218300237FB2 /* libz.dylib in Frameworks */,
 				0084190118D9217000237FB2 /* AudioToolbox.framework in Frameworks */,
-				001CE79D18DC6239003D01F9 /* MobileVLCKit.framework in Frameworks */,
 				008418FF18D9216400237FB2 /* CoreAudio.framework in Frameworks */,
 				008418FD18D9215700237FB2 /* AVFoundation.framework in Frameworks */,
 				008418C818D9204600237FB2 /* CoreGraphics.framework in Frameworks */,
 				008418CA18D9204600237FB2 /* UIKit.framework in Frameworks */,
 				008418C618D9204600237FB2 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		008418E018D9204600237FB2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				008418E518D9204600237FB2 /* XCTest.framework in Frameworks */,
-				008418E718D9204700237FB2 /* UIKit.framework in Frameworks */,
-				008418E618D9204700237FB2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,7 +111,6 @@
 			isa = PBXGroup;
 			children = (
 				008418C218D9204600237FB2 /* MobileVLCKitPlayer.app */,
-				008418E318D9204600237FB2 /* MobileVLCKitPlayerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -129,6 +118,8 @@
 		008418C418D9204600237FB2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				189BFE1A1A6FEEC7003BF5BA /* MobileVLCKit.framework */,
+				189BFE021A6FEEBA003BF5BA /* VLCKitPlayer */,
 				0084190A18D921D200237FB2 /* libbz2.dylib */,
 				0084190818D921C300237FB2 /* libc++.dylib */,
 				0084190618D921BA00237FB2 /* libiconv.dylib */,
@@ -148,7 +139,6 @@
 		008418CB18D9204600237FB2 /* VLCKitPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				001CE79C18DC6239003D01F9 /* MobileVLCKit.framework */,
 				008418D418D9204600237FB2 /* DVIAppDelegate.h */,
 				008418D518D9204600237FB2 /* DVIAppDelegate.m */,
 				008418D718D9204600237FB2 /* Main.storyboard */,
@@ -191,6 +181,50 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		189BFE021A6FEEBA003BF5BA /* VLCKitPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				189BFE031A6FEEBA003BF5BA /* MobileVLCKitPlayer.xcodeproj */,
+				189BFE061A6FEEBA003BF5BA /* VLCKitPlayer */,
+				189BFE151A6FEEBA003BF5BA /* VLCKitPlayerTests */,
+			);
+			name = VLCKitPlayer;
+			sourceTree = "<group>";
+		};
+		189BFE041A6FEEBA003BF5BA /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		189BFE061A6FEEBA003BF5BA /* VLCKitPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				189BFE071A6FEEBA003BF5BA /* Main.storyboard */,
+				189BFE091A6FEEBA003BF5BA /* DVIAppDelegate.h */,
+				189BFE0A1A6FEEBA003BF5BA /* DVIAppDelegate.m */,
+				189BFE0B1A6FEEBA003BF5BA /* DVIPlayerViewController.h */,
+				189BFE0C1A6FEEBA003BF5BA /* DVIPlayerViewController.m */,
+				189BFE0D1A6FEEBA003BF5BA /* DVIViewController.h */,
+				189BFE0E1A6FEEBA003BF5BA /* DVIViewController.mm */,
+				189BFE0F1A6FEEBA003BF5BA /* InfoPlist.strings */,
+				189BFE111A6FEEBA003BF5BA /* Images.xcassets */,
+				189BFE121A6FEEBA003BF5BA /* main.m */,
+				189BFE131A6FEEBA003BF5BA /* MobileVLCKitPlayer-Info.plist */,
+				189BFE141A6FEEBA003BF5BA /* MobileVLCKitPlayer-Prefix.pch */,
+			);
+			path = VLCKitPlayer;
+			sourceTree = "<group>";
+		};
+		189BFE151A6FEEBA003BF5BA /* VLCKitPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				189BFE161A6FEEBA003BF5BA /* InfoPlist.strings */,
+				189BFE181A6FEEBA003BF5BA /* MobileVLCKitPlayerTests-Info.plist */,
+				189BFE191A6FEEBA003BF5BA /* VLCKitPlayerTests.m */,
+			);
+			path = VLCKitPlayerTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -211,24 +245,6 @@
 			productReference = 008418C218D9204600237FB2 /* MobileVLCKitPlayer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		008418E218D9204600237FB2 /* MobileVLCKitPlayerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 008418F718D9204700237FB2 /* Build configuration list for PBXNativeTarget "MobileVLCKitPlayerTests" */;
-			buildPhases = (
-				008418DF18D9204600237FB2 /* Sources */,
-				008418E018D9204600237FB2 /* Frameworks */,
-				008418E118D9204600237FB2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				008418E918D9204700237FB2 /* PBXTargetDependency */,
-			);
-			name = MobileVLCKitPlayerTests;
-			productName = VLCKitPlayerTests;
-			productReference = 008418E318D9204600237FB2 /* MobileVLCKitPlayerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -238,11 +254,6 @@
 				CLASSPREFIX = DVI;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "戴维营教育";
-				TargetAttributes = {
-					008418E218D9204600237FB2 = {
-						TestTargetID = 008418C118D9204600237FB2;
-					};
-				};
 			};
 			buildConfigurationList = 008418BD18D9204600237FB2 /* Build configuration list for PBXProject "MobileVLCKitPlayer" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -255,10 +266,15 @@
 			mainGroup = 008418B918D9204600237FB2;
 			productRefGroup = 008418C318D9204600237FB2 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 189BFE041A6FEEBA003BF5BA /* Products */;
+					ProjectRef = 189BFE031A6FEEBA003BF5BA /* MobileVLCKitPlayer.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				008418C118D9204600237FB2 /* MobileVLCKitPlayer */,
-				008418E218D9204600237FB2 /* MobileVLCKitPlayerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -271,14 +287,6 @@
 				008418DE18D9204600237FB2 /* Images.xcassets in Resources */,
 				008418D018D9204600237FB2 /* InfoPlist.strings in Resources */,
 				008418D918D9204600237FB2 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		008418E118D9204600237FB2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				008418EF18D9204700237FB2 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,23 +304,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		008418DF18D9204600237FB2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				008418F118D9204700237FB2 /* VLCKitPlayerTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		008418E918D9204700237FB2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 008418C118D9204600237FB2 /* MobileVLCKitPlayer */;
-			targetProxy = 008418E818D9204700237FB2 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		008418CE18D9204600237FB2 /* InfoPlist.strings */ = {
@@ -335,6 +327,30 @@
 			isa = PBXVariantGroup;
 			children = (
 				008418EE18D9204700237FB2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		189BFE071A6FEEBA003BF5BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				189BFE081A6FEEBA003BF5BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		189BFE0F1A6FEEBA003BF5BA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				189BFE101A6FEEBA003BF5BA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		189BFE161A6FEEBA003BF5BA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				189BFE171A6FEEBA003BF5BA /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -426,9 +442,10 @@
 					/Users/cheetah/projects,
 					/Users/cheetah/Downloads,
 					"/Users/cheetah/lab/oc/MobileVLCKit-SDK",
+					"/Users/apple/Desktop/VLC/MobileVLCKit-SDK",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "VLCKitPlayer/MobileVLCKitPlayer-Prefix.pch";
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "VLCKitPlayer/MobileVLCKitPlayer-Info.plist";
 				PRODUCT_NAME = MobileVLCKitPlayer;
 				WRAPPER_EXTENSION = app;
@@ -447,54 +464,13 @@
 					/Users/cheetah/projects,
 					/Users/cheetah/Downloads,
 					"/Users/cheetah/lab/oc/MobileVLCKit-SDK",
+					"/Users/apple/Desktop/VLC/MobileVLCKit-SDK",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "VLCKitPlayer/MobileVLCKitPlayer-Prefix.pch";
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "VLCKitPlayer/MobileVLCKitPlayer-Info.plist";
 				PRODUCT_NAME = MobileVLCKitPlayer;
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		008418F818D9204700237FB2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VLCKitPlayer.app/VLCKitPlayer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "VLCKitPlayer/VLCKitPlayer-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "VLCKitPlayerTests/MobileVLCKitPlayerTests-Info.plist";
-				PRODUCT_NAME = MobileVLCKitPlayerTests;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		008418F918D9204700237FB2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VLCKitPlayer.app/VLCKitPlayer";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "VLCKitPlayer/VLCKitPlayer-Prefix.pch";
-				INFOPLIST_FILE = "VLCKitPlayerTests/MobileVLCKitPlayerTests-Info.plist";
-				PRODUCT_NAME = MobileVLCKitPlayerTests;
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -515,15 +491,6 @@
 			buildConfigurations = (
 				008418F518D9204700237FB2 /* Debug */,
 				008418F618D9204700237FB2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		008418F718D9204700237FB2 /* Build configuration list for PBXNativeTarget "MobileVLCKitPlayerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				008418F818D9204700237FB2 /* Debug */,
-				008418F918D9204700237FB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
